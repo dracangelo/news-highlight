@@ -13,7 +13,7 @@ h3{
 }
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), 
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), 
     url(https://specials-images.forbesimg.com/imageserve/1059548518/960x0.jpg?fit=scale);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,7 +22,7 @@ body {
     color: white;
 }
  .gree {
-     margin-top: 45vh;
-     font-size: 4rem;
-     color:black;
+     margin-top: 40vh;
+     font-size: 2.5rem;
+     color:white;
  }

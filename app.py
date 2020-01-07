@@ -8,11 +8,9 @@ app = Flask(__name__)
 
 
 @app.route('/')
-
 def index():
     newsapi = NewsApiClient(api_key = 'c43cae8199d1435fa1e4cc0737cd4a88')
     topheadlines = newsapi.get_top_headlines(sources = "al-jazeera-english")
-
 
     articles = topheadlines['articles']
 
@@ -22,8 +20,6 @@ def index():
     pubAt=[]
     url= []
     
-
-
     for i in range (len(articles)):
         myarticles = articles [i]
 
@@ -41,9 +37,7 @@ def index():
 
 
 @app.route('/abc')
-def abc():
-    
-    
+def Abc():
     """
  A view root page function that returns the index page and its data
     """
@@ -58,8 +52,6 @@ def abc():
     pubAt=[]
     url= []
     
-  
-    
     for i in range(len(articles)):
         myarticles = articles[i]
         
@@ -68,10 +60,10 @@ def abc():
         des.append(myarticles['description'])
         pubAt.append(myarticles['publishedAt'])
         url.append(myarticles['url'])
- 
         
     mylist=zip(des,image,news,pubAt,url)
     return render_template('abc.html', context = mylist)
+
 @app.route('/Bbc')
 def Bbc():
     
