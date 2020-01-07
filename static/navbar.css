@@ -1,0 +1,21 @@
+h1{
+    
+    color: #070707;
+    padding-bottom: 5%;
+
+}
+
+.nava{
+    background-color:inherit;
+    font-weight: 150px;
+}
+.loc{
+    background-image: url("https://bit.ly/37CT9DL");
+}
+
+.naf{
+    color: #ffffff;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #000000;
+}
