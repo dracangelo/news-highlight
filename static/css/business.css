@@ -11,3 +11,13 @@ h3{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), 
+    url(https://specials-images.forbesimg.com/imageserve/1059548518/960x0.jpg?fit=scale);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
